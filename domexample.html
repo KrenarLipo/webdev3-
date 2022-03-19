@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <button id="bejveprim" onclick="ngjyrosTekst()">Ngjyros tekst</button>
+    <button id="bejveprim2" onclick="ngjyrosTekstPerseri()">Ngjyros tekst perseri</button>
+    <p>
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        <span class="tekst">hello</span>
+    </p>
+    <p>
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        <span>hello2</span>
+    </p>
+    <p>
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        <span class="tekst">hello3</span>
+    </p>
+    <hr>
+    <div id="popup" class="popup__wrapper">
+      <div class="popup__container">
+        <h1 class="popup__title">Are you living already!</h1>
+        <p>Check this offer!!! 💁</p>
+      </div>
+    </div>
+    <div class="wrapper">
+      <input type="text" id="ngjyrosjeteksti" placeholder="vendos nje ngjyre" onkeyup="displayColor()" maxlength="6" minlength="6"/> 
+      <span id="afishimlive"></span>
+      <p id="tektiperndryshim">
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+        <h2>Headeri kryesor</h2>
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+        <h2>Headeri dytesor</h2>
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      </p>
+    </div>
+    <hr>
+    <form name="f1" action="#">  
+      <table>  
+      <tr><td>Enter Name:</td><td><input type="text" name="name"/>  
+      <span id="nameloc"></span></td></tr>  
+      <tr><td>Enter Password:</td><td><input type="password" name="password"/>  
+      <span id="passwordloc"></span></td></tr>  
+      <tr><td colspan="2"><button type="button" onclick="validate()">Perpuno</button></td></tr>  
+      </table>  
+      </form>
+      
+      <p>
+        <button id="filloanimim" onclick="moveRectangles()">Me klikoni</button>
+      </p>
+      <div class="container">
+        <div id="animate"></div>
+        <div id="moves"></div>
+      </div>
+
+    <!-- <script src="objektet.js"></script>
+    <script src="cars.js"></script>
+    <script src="arrays.js"></script> -->
+    <script src="domchange.js"></script>
+    </body>
+    </html>
